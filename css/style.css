@@ -1,0 +1,274 @@
+*{
+	box-sizing: border-box;
+}
+
+.bg-1 {
+	background-image: url('../img/bg-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.content{
+	width: 50%;
+	padding-top: 20%;
+	padding-bottom: 2%;
+	margin: auto;
+	text-align: center; 
+}
+
+.icon-1 {
+	padding-bottom: 10%; 
+}
+
+.icon-2{
+	padding-bottom: 5%; 
+}
+
+.content > h1 {
+	font-size: 54px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #fff; 
+	padding-bottom: 3%;
+}
+
+.content > p {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 10%;
+}
+
+.about, .We-Do, .contact-us {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.about-fieldset, .services-fieldset, .We-Do-fieldset{
+	border: 1.5px solid #3c3c3c;
+}
+
+.about-legend, .services-legend, .We-Do-legend{
+	width: 40%;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #3c3c3c
+}
+
+.about-inner, .services-text, .services-inner, .contact-us-inner{
+	width: 70%;
+	padding: 5% 0;
+	margin: auto;
+	text-align: center;	
+}
+
+.about-inner > p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+
+.services{
+	background: url('../img/bg-2.jpg');
+	padding-top: 8%;
+	padding-bottom:7%; 
+	background-repeat: no-repeat;
+}
+
+.services-inner{
+	padding: 2% 0;
+}
+
+.services-legend{
+	color: #fff
+}
+
+.services-fieldset{
+	border: 1.5px solid #fff;
+}
+
+.services-text > p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.We-Do{
+	
+}
+
+
+.We-Do-Work {
+	padding: 2% 3% 2% 3%;
+	display: grid;
+	width: 80%;
+	margin: auto;
+}
+
+.We-Do-design {
+	text-align: center;
+}
+
+.We-Do-design > img{
+	padding: 5% 0;
+}
+
+.We-Do-design > h1{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #3c3c3c;
+	padding-bottom: 2.5%;
+}
+
+.We-Do-design > p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: #3c3c3c;
+	padding-bottom: 2.5%;
+}
+
+.our-work {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.our-work-wrap{
+	width: 100%;
+	margin: auto;
+}
+
+.topwork{
+	background: url('../img/ow-5.jpg');
+	margin-right: 0.5%!important;
+}
+
+.join{
+	background: url('../img/ow-6.jpg');
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.market{
+	background: url('../img/ow-4.jpg');
+	margin-left: 0.5%!important;
+}
+
+.worktop{
+	background: url('../img/ow-2.jpg');
+	margin-right: 0.5%!important;
+}
+
+.lable{
+	background: url('../img/ow-1.jpg');
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.KYIV{
+	background: url('../img/ow-3.jpg');
+	margin-left: 0.5%!important;
+	margin-top: 0%!important;
+}
+
+.topwork, .join ,.market ,.worktop ,.lable,.KYIV{
+	padding-top: 10%;
+	padding-bottom: 1%;
+    padding-left: 2%;
+	background-size:cover;
+	margin: auto;
+	margin-bottom: 0.5%;
+}
+
+.topwork, .join ,.market ,.worktop ,.lable,.KYIV > h1{
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 34px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	
+}
+
+.contact-us-inner > p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #3c3c3c;
+	padding-bottom: 5%; 
+}
+
+.btn-contact{
+	width: 40%;
+    text-transform: uppercase;
+	padding: 2% 0;
+	transition: 1.5s;
+}
+
+.footer{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.copyright{
+	width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.copyright > p{
+	margin-bottom: 0px;
+	margin-left: 5%;
+    margin-top: 1%;
+}
+
+/* slide-up */
+
+.slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+	visibility: visible;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 0.5;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.opacity-div {
+	-webkit-animation: divOpacity 3.5s;
+	animation: divOpacity 3.5s;
+}
+
+@-webkit-keyframes divOpacity {
+	0%{
+		opacity: 0.2;
+	}
+	100%{
+		opacity: 0.9;
+	}
+}
+ @keyframes divOpacity {
+	0%{
+		opacity: 0.2;
+	}
+	100%{
+		opacity: 0.9;
+	}
+ }
